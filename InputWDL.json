@@ -1,0 +1,7 @@
+{
+    "AnnovarWorkflow.input_vcf": "/home/akshay/Akshay/Annovar/input/akj.vcf",
+    "AnnovarWorkflow.output_dir": "/home/akshay/Akshay/Annovar/output/",
+    "AnnovarWorkflow.humandb_dir": "/home/akshay/Akshay/Annovar/humandb/",
+    "AnnovarWorkflow.annovar_dir": "/home/akshay/Akshay/Annovar/"
+}
+
