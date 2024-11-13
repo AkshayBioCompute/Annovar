@@ -8,20 +8,11 @@ This repository provides workflows for processing and annotating VCF files using
 - Perl for executing ANNOVAR scripts
 
 ## Folder Structure
-Annovar_Project/
-├── InputWDL.json         # JSON input file for WDL
-├── README.md             # Documentation
-├── nexflow.nf            # Nextflow script
-├── snakefile             # Snakemake script
-├── workflow.wdl          # WDL workflow
-├── requirements.txt      # Python dependencies
-└── src/                  # Contains auxiliary scripts and configurations
-    ├── convert_to_avinput.sh      # Conversion script
-    ├── annotate_variants.sh       # Annotation script
-    ├── download_annovar.sh        # Download ANNOVAR and databases
-    ├── gene_annotation.sh         # Gene-based annotation script
-    ├── region_annotation.sh       # Region-based annotation script
-    └── filter_annotation.sh       # Filter-based annotation script
+- `nexflow.nf`: Nextflow script to process VCF files with ANNOVAR
+- `snakefile`: Snakemake script for the same workflow
+- `workflow.wdl`: WDL workflow script
+- `InputWDL.json`: Input parameters for the WDL workflow
+- `src/`: Contains all shell scripts required for each process
 
 ## Usage
 
