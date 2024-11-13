@@ -23,10 +23,13 @@ This repository provides workflows for processing and annotating VCF files using
 2. Run the workflow:
 
   For Nextflow:
+    ```bash
     nextflow run nexflow.nf
     
   For Snakemake:
+    ```bash
     snakemake --snakefile snakefile
     
   For WDL: Ensure your WDL runner (e.g., Cromwell) is installed, and then execute the workflow:
+      ```bash
     java -jar cromwell.jar run workflow.wdl -i InputWDL.json
