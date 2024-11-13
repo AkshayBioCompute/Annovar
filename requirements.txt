@@ -1,0 +1,5 @@
+pandas>=1.3.0       # For handling VCF and output CSV data in Python scripts, if needed
+numpy>=1.21.0       # For numerical operations
+requests>=2.26.0    # If any HTTP requests are needed for database downloads or API interactions
+pyyaml>=5.4.1       # For parsing YAML configuration files if applicable
+biopython>=1.79     # For handling biological data formats
